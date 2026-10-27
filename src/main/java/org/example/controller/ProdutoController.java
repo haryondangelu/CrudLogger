@@ -1,8 +1,8 @@
-package org.exemple.controller;
+package org.example.controller;
 
-import org.exemple.logger.AppLogger;
-import org.exemple.model.Produto;
-import org.exemple.service.ProdutoService;
+import org.example.logger.AppLogger;
+import org.example.model.Produto;
+import org.example.service.ProdutoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

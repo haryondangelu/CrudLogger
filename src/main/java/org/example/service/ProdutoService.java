@@ -1,8 +1,8 @@
-package org.exemple.service;
+package org.example.service;
 
-import org.exemple.logger.AppLogger;
-import org.exemple.model.Produto;
-import org.exemple.repository.ProdutoRepository;
+import org.example.logger.AppLogger;
+import org.example.model.Produto;
+import org.example.repository.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

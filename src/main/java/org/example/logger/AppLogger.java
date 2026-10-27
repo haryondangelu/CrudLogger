@@ -1,4 +1,4 @@
-package org.exemple.logger;
+package org.example.logger;
 
 import java.io.FileWriter;
 import java.io.IOException;

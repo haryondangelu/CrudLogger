@@ -1,4 +1,4 @@
-package org.exemple.logger;
+package org.example.logger;
 
 import org.springframework.stereotype.Component;
 
