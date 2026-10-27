@@ -1,0 +1,24 @@
+[2026-10-27 15:00:26] [DEBUG] Recebida requisição POST /produtos
+[2026-10-27 15:00:26] [DEBUG] Iniciando persistência do produto: Teclado Mecânico
+[2026-10-27 15:00:26] [INFO] Produto criado/atualizado com sucesso. ID Gerado: 1
+[2026-10-27 15:52:39] [DEBUG] Recebida requisição GET /produtos
+[2026-10-27 15:52:39] [DEBUG] Buscando todos os produtos no banco de dados.
+[2026-10-27 15:52:39] [INFO] Listagem de produtos concluída com sucesso. Total: 1
+[2026-10-27 15:52:59] [DEBUG] Recebida requisição GET /produtos/1
+[2026-10-27 15:52:59] [DEBUG] Buscando produto com ID: 1
+[2026-10-27 15:52:59] [INFO] Produto com ID 1 retornado com sucesso.
+[2026-10-27 15:53:10] [DEBUG] Recebida requisição GET /produtos/99
+[2026-10-27 15:53:10] [DEBUG] Buscando produto com ID: 99
+[2026-10-27 15:53:10] [ERRO] Produto com ID 99 não encontrado.
+[2026-10-27 15:53:34] [DEBUG] Recebida requisição PUT /produtos/1
+[2026-10-27 15:53:34] [DEBUG] Tentando atualizar produto ID: 1
+[2026-10-27 15:53:34] [INFO] Produto ID 1 atualizado com sucesso.
+[2026-10-27 15:53:41] [DEBUG] Recebida requisição PUT /produtos/99
+[2026-10-27 15:53:41] [DEBUG] Tentando atualizar produto ID: 99
+[2026-10-27 15:53:41] [ERRO] Falha na atualização. Produto ID 99 não existe.
+[2026-10-27 15:53:59] [DEBUG] Recebida requisição DELETE /produtos/1
+[2026-10-27 15:53:59] [DEBUG] Tentando deletar produto ID: 1
+[2026-10-27 15:53:59] [INFO] Produto ID 1 removido com sucesso.
+[2026-10-27 15:54:11] [DEBUG] Recebida requisição DELETE /produtos/1
+[2026-10-27 15:54:11] [DEBUG] Tentando deletar produto ID: 1
+[2026-10-27 15:54:11] [ERRO] Falha ao deletar. Produto ID 1 não foi encontrado.
