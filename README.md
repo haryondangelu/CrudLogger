@@ -1,4 +1,5 @@
 Quem garante a instância única em cada versão?
+
 No Singleton Clássico (AppLogger): A própria classe Java garante a instância única controlando seu ciclo de vida por meio de um construtor private e uma classe interna Holder (ou bloco sincronizado) que expõe uma única referência global estática.
 
 Na versão Spring (SpringAppLogger): O Container IoC do Spring Framework garante a instância única ao registrar a classe anotada com @Component como um Bean no escopo padrão (Singleton Scope), gerenciando sua injeção de dependência na aplicação.
